@@ -2,6 +2,6 @@ org\example\devopstechnicaltest\entities\Student.class
 org\example\devopstechnicaltest\repositories\StudentRepository.class
 org\example\devopstechnicaltest\ServiceImplementation\StudentServiceImplementation.class
 org\example\devopstechnicaltest\controllers\StudentController.class
-org\example\devopstechnicaltest\dtos\StudentDTO.class
 org\example\devopstechnicaltest\DevOpsTechnicalTestApplication.class
 org\example\devopstechnicaltest\iservice\IStudentService.class
+org\example\devopstechnicaltest\controllers\dtos\StudentDTO.class

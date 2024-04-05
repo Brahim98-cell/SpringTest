@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+    <Student
+            id="1"
+            first_name="brahim"
+            family_name="frigui"
+            email_address="brahimfrigui7@gmail.com">
+    </Student>
+    <!-- Add more product elements if needed -->
+</dataset>

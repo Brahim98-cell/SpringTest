@@ -3,5 +3,5 @@ C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devops
 C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devopstechnicaltest\entities\Student.java
 C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devopstechnicaltest\repositories\StudentRepository.java
 C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devopstechnicaltest\controllers\StudentController.java
-C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devopstechnicaltest\dtos\StudentDTO.java
+C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devopstechnicaltest\controllers\dtos\StudentDTO.java
 C:\Users\DELL\Desktop\devops-spring-test-master\src\main\java\org\example\devopstechnicaltest\iservice\IStudentService.java
