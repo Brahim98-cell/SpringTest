@@ -9,15 +9,4 @@ services:
       - SPRING_DATA_MONGODB_URI=mongodb+srv://Ipactconsult:Ipact2021@cluster0.jt1kl.mongodb.net/DevOpsDB
     # Add other configurations as needed, such as volumes, etc.
 
-  mongodb:
-    image: mongo
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=Ipactconsult
-      - MONGO_INITDB_ROOT_PASSWORD=Ipact2021
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongodb_data:/data/db
 
-volumes:
-  mongodb_data:
