@@ -27,6 +27,14 @@ pipeline {
             }
         }
 
+  stage('Unit Tests') {
+            steps {
+                sh 'mvn test'  // Assuming you use Maven and JUnit for testing
+            }
+        }
+
+
+      
   }
 
 
