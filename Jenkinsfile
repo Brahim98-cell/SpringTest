@@ -49,12 +49,33 @@ pipeline {
             }
         }
 
+
+stage('Build image spring') {
+            steps {
+                script {
+                    // Build the Docker image for the Spring Boot app
+                    sh "docker build -t $DOCKER_IMAGE_Back_NAME ."
+                }
+            }
+        }
+
+        stage('Push image spring') {
+            steps {
+                script {
+                    withDockerRegistry([credentialsId: 'docker-hub-creds',url: ""]) {
+                        // Push the Docker image to Docker Hub
+                        sh "docker push $DOCKER_IMAGE_Back_NAME"
+                    }
+                }
+            }}
+
       
   }
 
 
 
 
+    
 
 
 
