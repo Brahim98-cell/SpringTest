@@ -40,7 +40,7 @@ pipeline {
                 script {
               sh 'mvn clean verify sonar:sonar ' +
                        '-Dsonar.projectKey=test ' +
-                       '-Dsonar.projectName='test ' +
+                       '-Dsonar.projectName=test ' +
                        '-Dsonar.host.url=http://192.168.33.10:9000 ' +
                        '-Dsonar.login=sqp_5fe374f67d2af5b8898c815a4bb8cc5376796d70'
                     '-Dsonar.jacoco.reportPaths=target/jacoco.exec ' + // Path to the JaCoCo execution data file
