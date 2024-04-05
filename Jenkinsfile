@@ -23,7 +23,7 @@ pipeline {
       stage('Build') {
             steps {
                 // Build the project using Maven
-                sh 'mvn clean package' // Adjust this to your actual build command
+                sh 'mvn clean install' // Adjust this to your actual build command
             }
         }
 
