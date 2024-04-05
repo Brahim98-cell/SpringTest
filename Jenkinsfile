@@ -38,11 +38,13 @@ pipeline {
        stage('SonarQube Analysis') {
             steps {
                 script {
-                    sh 'mvn clean verify sonar:sonar ' +
+               sh 'mvn clean verify sonar:sonar ' +
                        '-Dsonar.projectKey=sonar ' +
                        '-Dsonar.projectName=sonar ' +
                        '-Dsonar.host.url=http://192.168.33.10:9000 ' +
                        '-Dsonar.login=sqp_13b892f1b17552cb3fd831321e86e82b2dc493b0'
+                    '-Dsonar.jacoco.reportPaths=target/jacoco.exec ' + // Path to the JaCoCo execution data file
+                    '-Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml''
                 }
             }
         }
