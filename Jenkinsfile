@@ -70,12 +70,24 @@ stage('Build image spring') {
             }}
 
       
-  }
+  
+
+
+          stage('Build and Deploy') {
+    steps {
+        // Checkout your source code from the version control system if needed
+
+        // Build the Docker images for your Spring Boot backend and Angular frontend
+
+        // Start the application stack using Docker Compose
+        sh "/usr/bin/docker-compose -f docker-compose.yml up -d"
+    }
+}
 
 
 
 
-    
+  }  
 
 
 
