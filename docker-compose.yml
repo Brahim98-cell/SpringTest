@@ -2,9 +2,9 @@ version: '3.8'
 
 services:
   spring-app:
-    image: brahim98/devops_project_test:Springimage
+    image: brahim98/tawasolna_back:springimage
     ports:
-      - "8888:8080"
+      - "8888:8888"
     environment:
       - SPRING_DATA_MONGODB_URI=mongodb+srv://Ipactconsult:Ipact2021@cluster0.jt1kl.mongodb.net/DevOpsDB
     # Add other configurations as needed, such as volumes, etc.
